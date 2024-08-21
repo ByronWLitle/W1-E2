@@ -19,8 +19,11 @@ namespace ConsoleApp1
 
             Console.WriteLine("What is your age?");
             string age = Console.ReadLine();
-            
-            Console.WriteLine("Hello "+ firstname + " "+ lastname + ". You are "+ age + " years old.");
+
+            Console.WriteLine("What is your favorite number?");
+            string favnum = Console.ReadLine();
+
+            Console.WriteLine("Hello "+ firstname + " "+ lastname + "! You are "+ age + " years old and your favorite number is " + favnum +".");
 
             Console.Read();
         }
