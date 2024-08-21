@@ -39,7 +39,7 @@ namespace ConsoleApp1
             //Assign the user input string to firstname variable
             favnum = Console.ReadLine();
 
-            Console.WriteLine("Hello "+ firstname + " "+ lastname + "! You are "+ age + " years old and your favorite number is " + favnum +".");
+            Console.WriteLine("Hello " + firstname + " " + lastname + "! You are " + age + " years old and your favorite number is " + favnum + ".");
 
             Console.Read();
         }
