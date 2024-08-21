@@ -5,12 +5,15 @@ using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Excerise2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            //Title for program
+            Console.WriteLine("INFORMATION INPUT");
+           
             //Prompts user to input first name
             Console.Write("What is your first name? ");
             //Declare a variable firstname to hold the first name from user
